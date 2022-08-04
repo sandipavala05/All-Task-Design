@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(239, 179, 156);
+        }
+        .main{
+            height: 300px;
+            width: 600px;
+            display: flex;
+            margin: 0px 200px ;
+            font-size: 50px;
+            position: relative;
+            text-shadow: 10px 10px 10px gray;
+            color: rgb(4, 4, 4);
+        }
+        .one{position: absolute;
+            padding: 20px 10px;
+            animation: drop 1s linear;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+           
+        }
+
+        @keyframes drop{
+            from {top: 0px;}
+            to{ top: 350px;}
+        }  
+        .two{position: absolute;
+            padding: 20px 230px;
+            animation: main 1s linear;
+            animation-iteration-count: infinite;
+            animation-delay: 1s;
+            animation-direction: alternate-reverse;
+
+        }     
+        @keyframes main{
+            from {top: 0px;}
+            to { top: 350px;}
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="one">SANDIPA</div>
+        <div class="two">VALA</div>
+    </div>
+</body>
+</html>
