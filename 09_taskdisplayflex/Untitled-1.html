@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" six="IE=edge">
+    <meta name="viewport" six="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nav{
+            width:100px;
+            display: flex;
+            background-color: darkslateblue;
+        }
+        .nav img{
+            height: 30px;
+            width:30px;
+            padding: 10px;
+        }
+        ul{
+            background-color: rgb(124, 182, 229);
+            list-style-type: none;
+            margin: 0%;
+            padding: 0%;                                                
+        }
+        .content li{display: inline-block;
+              position: relative; 
+             
+        }
+        .content li a{
+            text-decoration: none;
+            color:white;
+            display:block;
+            font-size: 20px;
+            padding:10px 20px;            
+        }
+        .content li ul.dropdown a{
+            width: 90px;
+        }
+        .content li ul.dropdown{
+            display:none;
+        }
+        .content li:hover{
+            background-color:blue;
+        }
+        .content li:hover a{color:red;}
+        .content li:hover ul.dropdown{
+            position:absolute;
+            display:inline-block;
+        }
+        .content li:hover ul.dropdown a{color:yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <img src="img/lan.png" alt="">
+        <ul class="content">
+            <li><a href="#">langauge</a>
+                    <ul class="dropdown">
+                        <li><a href="#"><input type="radio"name="langauge"value="English">English</a></li>
+                        <li><a href="#"><input type="radio"name="langauge"value="Hindi">Hindi</a></li>
+                        <li><a href="#"><input type="radio"name="langauge"value="Gujrati">Gujrati</a></li>
+                    </ul>
+            </li>
+    </div>
+</body>
+</html>
