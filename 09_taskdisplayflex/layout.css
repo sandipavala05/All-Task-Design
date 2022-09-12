@@ -1,0 +1,257 @@
+*{
+    box-sizing: border-box;
+}
+.head{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(13, 58, 60);
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    position:sticky;
+    top:0%;
+}
+.one{
+    width: 160px;
+    height: 100px;
+    border: none;
+    background-color: rgb(13, 58, 60);
+
+}
+button{    background-color: rgb(13, 58, 60);
+}
+button:hover {
+    border:3px solid rgb(245, 111, 9);
+    cursor:pointer;
+}
+button:hover {
+    color:black;
+    background-color: lavender;
+
+}
+
+.one img{
+    width: 150px;
+    height: 90px;
+    padding-right: 5px;
+}
+.two{
+    width: 200px;
+    height: 60px;
+    background-color: cadetblue;
+    border: 3px solid goldenrod;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color:white;
+}
+.three{
+    width:40px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 20px;
+    border: none;
+    font-size: 16px;
+    display:block;
+    background-color: cornflowerblue;
+}
+.three:hover{
+    border:3px solid rgb(233, 199, 7);
+    cursor:pointer;
+}
+
+.four{
+    width:370px;
+    height: 50px;
+    margin-top: 30px;
+    border: none;
+    display:block;
+    background-color:white;
+}
+.four:hover{
+    border:3px solid rgb(233, 199, 7);
+    cursor:pointer;
+}
+
+input{
+    width:370px;
+    height: 45px;
+    padding-left: 0px;
+    border:none;
+}
+.five{
+    width:40px;
+    height: 50px;
+    margin-top: 30px;
+    border: none;
+    display:block;
+    background-color:chocolate;
+}
+.five:hover{
+    border:3px solid rgb(233, 199, 7);
+    cursor:pointer;
+}
+.six{
+    width:50px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 30px;
+    border: none;
+}
+.six img{
+    width:35px;
+    height: 30px;
+}
+/* .six{
+    color:black;
+    display:inline-block;
+    position:relative;
+}
+.six ul{
+    list-style-type: none;
+    background-color: rgb(108, 165, 211);
+    display:none;
+
+
+}
+li{
+    display:block;
+    list-style-type:none;
+    padding-left:0px;
+    background-color: rgb(108, 165, 211);
+    display:inline-block;
+
+}
+li:hover {
+    display:block;
+    position: absolute;
+    background-color:blue;
+}
+.six input{
+    width:20px;
+} */
+.seven{
+    width: 150px;
+    height: 60px;
+    background-color: rgb(43, 74, 75);
+    border: 2px solid gray;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color:white;
+}
+.eight{
+    width: 100px;
+    height: 60px;
+    background-color: rgb(43, 74, 75);
+    border: 2px solid gray;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color:white;
+}
+.nine{
+    width:80px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: rgb(43, 74, 75);
+    border: 2px solid gray;
+    font-size: 16px;
+    color:white;
+
+}
+/* head end */
+/* nav end */
+.nav{
+    background-color:darkcyan;
+    width: 100%;
+    display:flex;
+    height: 55px;
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+}
+ul li{
+    display: inline-block;
+    padding: 15px 5px 18px 5px;
+}
+ul li a{
+    color:white;
+    text-decoration: none;
+}
+ul li:hover{
+    background-color:darkblue;
+}
+ul li:hover a{
+    color:red;
+}
+.main{
+        width: 430px;
+        height: 55px;
+        background-color: rgb(141, 192, 194);
+        border: 2px solid rgb(233, 233, 59);
+        margin: 0px 2px 0px 2px;
+        color:white;
+        display:flex;
+    
+}
+.main img{
+    width: 55px;
+    height: 50px;
+}
+.main p{
+    color:white;
+    font-size:19px;
+    padding:0px 5px 0px 5px ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    overflow: hidden;
+}
+.main:hover {
+    border:2px solid white;
+    cursor:pointer;
+    background-color:darkslateblue;
+}
+.main:hover p{
+    color:black;
+}
+
+/* nav end */
+.center{
+    width:100%;
+    background-color:rgb(126, 194, 126);
+}
+.center img{
+   width:100%;
+   height: auto;
+   padding: 10px;
+}
+.bottom{
+    width:100%;
+    height: 350px;
+    margin:0px;
+    padding: 20px;
+    background-color:cornflowerblue;
+}
+.bottom img{
+    padding: 9px;
+ }
+ .footer{
+    height:100px;
+    width: 100%;
+    background-color:darkorchid;
+    padding:10px;
+
+ }
+ .ten{
+    font-size: 16px;
+    margin:10px;
+    background-color:crimson;
+    height:30px;
+    width:150px;
+
+ }
+ 
